@@ -100,21 +100,6 @@ time,ACA,PKA,ERK2,RegA,cAMPi,cAMPe,CAR1,PDEe,cAMPtracked
 
 ## Model Parameters
 
-### Grid Configuration
-
-| Parameter | Value | Unit | Description |
-|-----------|-------|------|-------------|
-| `WIDTH` | 500 | grid units | Grid width |
-| `HEIGHT` | 200 | grid units | Grid height |
-| `DX` | 3.0 | µm | Spatial resolution |
-
-### Diffusion Coefficients
-
-| Species | Rate | Unit |
-|---------|------|------|
-| cAMP | 350 | µm²/s |
-| PDE | 40 | µm²/s |
-
 ### Reaction Rate Parameters
 
 See `compute_reaction_params()` in the source for full parameter set with unit conversions.
